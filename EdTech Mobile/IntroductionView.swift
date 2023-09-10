@@ -44,34 +44,20 @@ struct IntroductionView: View {
                     }
             }
             .tabViewStyle(.page(indexDisplayMode: .always))
-            .indexViewStyle(.page(backgroundDisplayMode: .always))
             .onAppear {
                 setupAppearance()
             }
             
             Spacer()
 
-            Button {
-                // TODO: Action Bar
-            } label: {
-                ZStack {
-                    Color(.orange)
-                        .cornerRadius(16)
-                        .frame(height: 60)
-                    Text("Next")
-                        .foregroundColor(.white)
-                        .font(.headline)
-                }
-            }
-            .padding(.horizontal, 32)
-            .padding(.bottom,20)
+            MainButton(title: "Next")
         }
         .navigate(to: LoginScreenView(), when: $goToLogin)
     }
     
     func setupAppearance() {
-        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(red: 101, green: 170, blue: 230, alpha: 1)
-        UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
+        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(named: "skyblue")
+        UIPageControl.appearance().pageIndicatorTintColor =  UIColor(named: "lightgray")
       }
 }
 
