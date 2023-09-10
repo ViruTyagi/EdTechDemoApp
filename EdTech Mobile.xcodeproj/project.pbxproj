@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0102FFEC2AAD8C4300EFE7CF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102FFEB2AAD8C4300EFE7CF /* SplashScreen.swift */; };
 		01307F7A2AAB630700862500 /* EdTech_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01307F792AAB630700862500 /* EdTech_MobileApp.swift */; };
-		01307F7C2AAB630700862500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01307F7B2AAB630700862500 /* ContentView.swift */; };
+		01307F7C2AAB630700862500 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01307F7B2AAB630700862500 /* IntroductionView.swift */; };
 		01307F7E2AAB630800862500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01307F7D2AAB630800862500 /* Assets.xcassets */; };
 		01307F812AAB630800862500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01307F802AAB630800862500 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0102FFEB2AAD8C4300EFE7CF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		01307F762AAB630700862500 /* EdTech Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EdTech Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01307F792AAB630700862500 /* EdTech_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdTech_MobileApp.swift; sourceTree = "<group>"; };
-		01307F7B2AAB630700862500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01307F7B2AAB630700862500 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		01307F7D2AAB630800862500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01307F802AAB630800862500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				01307F792AAB630700862500 /* EdTech_MobileApp.swift */,
-				01307F7B2AAB630700862500 /* ContentView.swift */,
+				01307F7B2AAB630700862500 /* IntroductionView.swift */,
+				0102FFEB2AAD8C4300EFE7CF /* SplashScreen.swift */,
 				01307F7D2AAB630800862500 /* Assets.xcassets */,
 				01307F7F2AAB630800862500 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01307F7C2AAB630700862500 /* ContentView.swift in Sources */,
+				0102FFEC2AAD8C4300EFE7CF /* SplashScreen.swift in Sources */,
+				01307F7C2AAB630700862500 /* IntroductionView.swift in Sources */,
 				01307F7A2AAB630700862500 /* EdTech_MobileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

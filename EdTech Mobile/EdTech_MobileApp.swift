@@ -11,7 +11,7 @@ import SwiftUI
 struct EdTech_MobileApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }
