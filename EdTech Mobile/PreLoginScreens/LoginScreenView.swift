@@ -10,6 +10,7 @@ import SwiftUI
 struct LoginScreenView: View {
     @State var email : String = ""
     @State var password: String = ""
+    @State var goToSignUp: Bool = false
     
     var body: some View {
         VStack {
@@ -53,13 +54,14 @@ struct LoginScreenView: View {
             
             MainButton(title: "Login")
             Button {
-                // TODO: Signup screen change
+                goToSignUp = true
             } label: {
                  Text("Sign up")
                     .font(.system(.subheadline,weight: .semibold))
                     .foregroundColor(.gray)
             }
         }
+        .navigate(to: SignUpScreenView(), when: $goToSignUp)
     }
 }
 

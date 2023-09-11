@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010200292AAEFFC400EFE7CF /* SignUpScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010200282AAEFFC400EFE7CF /* SignUpScreenView.swift */; };
 		0102FFEC2AAD8C4300EFE7CF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102FFEB2AAD8C4300EFE7CF /* SplashScreen.swift */; };
 		0102FFEF2AAD9A8F00EFE7CF /* MainActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102FFEE2AAD9A8F00EFE7CF /* MainActionButton.swift */; };
 		0102FFF12AADBC8F00EFE7CF /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102FFF02AADBC8F00EFE7CF /* LoginScreenView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010200282AAEFFC400EFE7CF /* SignUpScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenView.swift; sourceTree = "<group>"; };
 		0102FFEB2AAD8C4300EFE7CF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		0102FFEE2AAD9A8F00EFE7CF /* MainActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActionButton.swift; sourceTree = "<group>"; };
 		0102FFF02AADBC8F00EFE7CF /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010200272AAEFF9D00EFE7CF /* PreLoginScreens */ = {
+			isa = PBXGroup;
+			children = (
+				01307F7B2AAB630700862500 /* IntroductionView.swift */,
+				0102FFEB2AAD8C4300EFE7CF /* SplashScreen.swift */,
+				0102FFF02AADBC8F00EFE7CF /* LoginScreenView.swift */,
+				010200282AAEFFC400EFE7CF /* SignUpScreenView.swift */,
+			);
+			path = PreLoginScreens;
+			sourceTree = "<group>";
+		};
 		0102FFED2AAD9A7100EFE7CF /* ReuseableComps */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,9 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				01307F792AAB630700862500 /* EdTech_MobileApp.swift */,
-				01307F7B2AAB630700862500 /* IntroductionView.swift */,
-				0102FFEB2AAD8C4300EFE7CF /* SplashScreen.swift */,
-				0102FFF02AADBC8F00EFE7CF /* LoginScreenView.swift */,
+				010200272AAEFF9D00EFE7CF /* PreLoginScreens */,
 				0102FFED2AAD9A7100EFE7CF /* ReuseableComps */,
 				01307F7D2AAB630800862500 /* Assets.xcassets */,
 				01307F7F2AAB630800862500 /* Preview Content */,
@@ -161,6 +172,7 @@
 				0102FFF32AADBE3900EFE7CF /* ViewExtension .swift in Sources */,
 				0102FFEF2AAD9A8F00EFE7CF /* MainActionButton.swift in Sources */,
 				0102FFEC2AAD8C4300EFE7CF /* SplashScreen.swift in Sources */,
+				010200292AAEFFC400EFE7CF /* SignUpScreenView.swift in Sources */,
 				01307F7C2AAB630700862500 /* IntroductionView.swift in Sources */,
 				01307F7A2AAB630700862500 /* EdTech_MobileApp.swift in Sources */,
 			);
