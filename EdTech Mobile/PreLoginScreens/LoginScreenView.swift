@@ -11,6 +11,7 @@ struct LoginScreenView: View {
     @State var email : String = ""
     @State var password: String = ""
     @State var goToSignUp: Bool = false
+    @State var goToNavBar: Bool = false
     
     var body: some View {
         VStack {
@@ -43,7 +44,7 @@ struct LoginScreenView: View {
             Spacer()
             
             Button {
-                // TODO: Signup screen change
+                goToNavBar = true
             } label: {
                  Text("Forgot Password?")
                     .font(.system(.subheadline,weight: .semibold))
@@ -62,6 +63,7 @@ struct LoginScreenView: View {
             }
         }
         .navigate(to: SignUpScreenView(), when: $goToSignUp)
+        .navigate(to: MainTabBarView(), when: $goToNavBar)
     }
 }
 
